@@ -1,0 +1,180 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f5a623;
+  flex-direction: column;
+}
+
+.top-bar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.header-buttons button {
+  background-color: transparent;
+  border: 1px solid darkgray;
+  color: darkgray;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+}
+
+.header-buttons button .icon {
+  height: 20px;
+  margin-right: 8px;
+}
+
+.header-buttons .signup {
+  background-color: #ff6f00;
+  color: #fff;
+}
+
+nav {
+  background-color: #ffc928;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #1779BA;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  text-align: left;
+  padding-right: 26px;
+ 
+}
+
+.promo-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  align-items: center;
+  position: relative;
+    bottom: 53px;
+}
+
+.actions button {
+  background-color: #fff;
+  border: 1px solid #ff6f00;
+  color: black;
+  padding: 15px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 27px;
+  font-weight: 600;
+  margin: 16px;
+}
+
+.actions .chat {
+  background-color: #ff6f00;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .top-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .header-buttons {
+    margin-top: 10px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .header-buttons button {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.promo-image {
+  width: 43%;
+  margin-right: 0px;
+  position: relative;
+  top: 20px;
+}
+.fill-color {
+  color: #ff6f00;
+  
+}
+
